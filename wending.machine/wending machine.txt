@@ -1,0 +1,32 @@
+#Step 1: displayin some product information 
+print("Welcome to X's vending machine\n")
+print("Product Price Code")
+print("pepsi   $2.50 1111")
+print("galaxy  $4    2222")
+print("cake    $3.50 3333")
+print("pastry  $5.50 4444")
+print("milk    $7    5555")
+# step-2: Create a variable for pepsi
+
+# list of variable
+pepsiprice = 2.50
+galaxyprice = 4
+#step-3 ask the user to type a code 
+print("Type a product code to comtinue...")
+
+#Step-4: Use the int(input()) function and save the response in a variable 
+#called usercode.
+
+userCode = int(input())
+
+#Step-5: Now use an if condition and check if the userCode is equal to 1111
+#and if this is TRUE, print: You have selected pepsi. Pay $2.50
+
+if userCode == 1111:
+    print("You have selected pepsi. Pay $2.50")
+
+#Step6: Now use an elif condition and check if the usercode is equal to 2222, and 
+#[Also add the another for pepsi price]
+
+elif userCode == 2222:
+    print("You have selected galaxy. Pay $4")
